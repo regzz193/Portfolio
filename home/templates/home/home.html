@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <section>
+        <div class="main-container" >
+            <div class="image" data-aos="fade-down" data-aos-delay="100">
+                <img src="{% static 'images/MyP.png' %}" alt="My Picture">
+            </div>
+            <div class="content">
+                    <h1 data-aos="fade-left" data-aos-delay="100">Hello im <span>Reggie</span></h1>
+                    <div class="typewriter" data-aos="fade-right" data-aos-delay="300">I'm a <span class="typewriter-text">|</span><label for=""></label></div>
+                    <p data-aos="flip-down" data-aos-delay="100">Greetings from beyond the grave! As a senior high school student by day and a brain-craving zombie by night,
+                        I’m here to share my unique journey through the corridors of both education and the afterlife.
+                        I’m a zombie who’s dedicated to learning and growing, despite my undead status. Balancing my studies with my nocturnal hunger for brains,
+                        I strive to make the most of my high school experience, even if it means dragging my feet a bit more than usual.</p>
+                    <div class="social-link">
+                        <a href="#" data-aos="fade-up" data-aos-delay="100"><i class='bx bxl-github'></i></a>
+                        <a href="#" data-aos="fade-up" data-aos-delay="100"><i class='bx bxl-facebook-square' ></i></a>
+                        <a href="#" data-aos="fade-up" data-aos-delay="100"><i class='bx bxl-linkedin-square' ></i></a>
+                    </div>
+                    <button data-aos="zoom-out" data-aos-delay="100">Hire me</button>
+            </div>
+        </div>
+    </section>
+{% endblock %}
