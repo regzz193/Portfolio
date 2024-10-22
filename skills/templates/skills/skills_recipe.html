@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="container skills-recipe">
+        <h3>{{ skill_category }}</h3>
+        {% for category in categories %}
+            <div class="skills-recipe-container">
+                <h4>{{ category.category_name }}</h4>
+                <p>{{ category.description }}</p>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

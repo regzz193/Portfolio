@@ -1,0 +1,16 @@
+.skills-recipe h3{
+    color: white;
+    text-align: center;
+    margin: 50px;
+}
+
+.skills-recipe-container h4{
+    text-align: center;
+    color: #0866fd;
+    margin-top: 20px;
+}
+
+.skills-recipe-container p{
+    color: rgba(255, 255, 255, 0.32);
+    font-size: 15px;
+}
